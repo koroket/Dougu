@@ -9,9 +9,19 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>DouguExtension.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>6258CA9A1AA1A78E00D7C392</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>62E8ADEF1AA1A1BE00E8DAE0</key>
 		<dict>
 			<key>primary</key>

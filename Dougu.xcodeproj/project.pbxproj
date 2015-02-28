@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6258CAA01AA1A78E00D7C392 /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6258CA9F1AA1A78E00D7C392 /* ActionViewController.swift */; };
+		6258CAA21AA1A78E00D7C392 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6258CAA11AA1A78E00D7C392 /* MainInterface.storyboard */; };
+		6258CAA51AA1A78E00D7C392 /* DouguExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6258CA9B1AA1A78E00D7C392 /* DouguExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		62E8ADF61AA1A1BE00E8DAE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E8ADF51AA1A1BE00E8DAE0 /* AppDelegate.swift */; };
 		62E8ADF91AA1A1BE00E8DAE0 /* Dougu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 62E8ADF71AA1A1BE00E8DAE0 /* Dougu.xcdatamodeld */; };
 		62E8ADFE1AA1A1BE00E8DAE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62E8ADFC1AA1A1BE00E8DAE0 /* Main.storyboard */; };
@@ -18,6 +21,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		6258CAA31AA1A78E00D7C392 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62E8ADE81AA1A1BE00E8DAE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6258CA9A1AA1A78E00D7C392;
+			remoteInfo = DouguExtension;
+		};
 		62E8AE091AA1A1BE00E8DAE0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 62E8ADE81AA1A1BE00E8DAE0 /* Project object */;
@@ -27,7 +37,25 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		6258CAA91AA1A78E00D7C392 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6258CAA51AA1A78E00D7C392 /* DouguExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		6258CA9B1AA1A78E00D7C392 /* DouguExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DouguExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		6258CA9E1AA1A78E00D7C392 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6258CA9F1AA1A78E00D7C392 /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
+		6258CAA11AA1A78E00D7C392 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
 		62E8ADF01AA1A1BE00E8DAE0 /* Dougu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dougu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62E8ADF41AA1A1BE00E8DAE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62E8ADF51AA1A1BE00E8DAE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +71,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6258CA981AA1A78E00D7C392 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		62E8ADED1AA1A1BE00E8DAE0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -60,11 +95,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6258CA9C1AA1A78E00D7C392 /* DouguExtension */ = {
+			isa = PBXGroup;
+			children = (
+				6258CA9F1AA1A78E00D7C392 /* ActionViewController.swift */,
+				6258CAA11AA1A78E00D7C392 /* MainInterface.storyboard */,
+				6258CA9D1AA1A78E00D7C392 /* Supporting Files */,
+			);
+			path = DouguExtension;
+			sourceTree = "<group>";
+		};
+		6258CA9D1AA1A78E00D7C392 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6258CA9E1AA1A78E00D7C392 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		62E8ADE71AA1A1BE00E8DAE0 = {
 			isa = PBXGroup;
 			children = (
 				62E8ADF21AA1A1BE00E8DAE0 /* Dougu */,
 				62E8AE0B1AA1A1BE00E8DAE0 /* DouguTests */,
+				6258CA9C1AA1A78E00D7C392 /* DouguExtension */,
 				62E8ADF11AA1A1BE00E8DAE0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,6 +128,7 @@
 			children = (
 				62E8ADF01AA1A1BE00E8DAE0 /* Dougu.app */,
 				62E8AE081AA1A1BE00E8DAE0 /* DouguTests.xctest */,
+				6258CA9B1AA1A78E00D7C392 /* DouguExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,6 +176,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		6258CA9A1AA1A78E00D7C392 /* DouguExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6258CAA81AA1A78E00D7C392 /* Build configuration list for PBXNativeTarget "DouguExtension" */;
+			buildPhases = (
+				6258CA971AA1A78E00D7C392 /* Sources */,
+				6258CA981AA1A78E00D7C392 /* Frameworks */,
+				6258CA991AA1A78E00D7C392 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DouguExtension;
+			productName = DouguExtension;
+			productReference = 6258CA9B1AA1A78E00D7C392 /* DouguExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		62E8ADEF1AA1A1BE00E8DAE0 /* Dougu */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 62E8AE121AA1A1BE00E8DAE0 /* Build configuration list for PBXNativeTarget "Dougu" */;
@@ -128,10 +200,12 @@
 				62E8ADEC1AA1A1BE00E8DAE0 /* Sources */,
 				62E8ADED1AA1A1BE00E8DAE0 /* Frameworks */,
 				62E8ADEE1AA1A1BE00E8DAE0 /* Resources */,
+				6258CAA91AA1A78E00D7C392 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				6258CAA41AA1A78E00D7C392 /* PBXTargetDependency */,
 			);
 			name = Dougu;
 			productName = Dougu;
@@ -165,6 +239,9 @@
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = sloot;
 				TargetAttributes = {
+					6258CA9A1AA1A78E00D7C392 = {
+						CreatedOnToolsVersion = 6.2;
+					};
 					62E8ADEF1AA1A1BE00E8DAE0 = {
 						CreatedOnToolsVersion = 6.2;
 					};
@@ -189,11 +266,20 @@
 			targets = (
 				62E8ADEF1AA1A1BE00E8DAE0 /* Dougu */,
 				62E8AE071AA1A1BE00E8DAE0 /* DouguTests */,
+				6258CA9A1AA1A78E00D7C392 /* DouguExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6258CA991AA1A78E00D7C392 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6258CAA21AA1A78E00D7C392 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		62E8ADEE1AA1A1BE00E8DAE0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -214,6 +300,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6258CA971AA1A78E00D7C392 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6258CAA01AA1A78E00D7C392 /* ActionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		62E8ADEC1AA1A1BE00E8DAE0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -236,6 +330,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		6258CAA41AA1A78E00D7C392 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6258CA9A1AA1A78E00D7C392 /* DouguExtension */;
+			targetProxy = 6258CAA31AA1A78E00D7C392 /* PBXContainerItemProxy */;
+		};
 		62E8AE0A1AA1A1BE00E8DAE0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 62E8ADEF1AA1A1BE00E8DAE0 /* Dougu */;
@@ -263,6 +362,30 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		6258CAA61AA1A78E00D7C392 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DouguExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6258CAA71AA1A78E00D7C392 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DouguExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		62E8AE101AA1A1BE00E8DAE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -344,6 +467,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Dougu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -354,6 +478,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Dougu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -397,6 +522,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6258CAA81AA1A78E00D7C392 /* Build configuration list for PBXNativeTarget "DouguExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6258CAA61AA1A78E00D7C392 /* Debug */,
+				6258CAA71AA1A78E00D7C392 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		62E8ADEB1AA1A1BE00E8DAE0 /* Build configuration list for PBXProject "Dougu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -413,6 +546,7 @@
 				62E8AE141AA1A1BE00E8DAE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		62E8AE151AA1A1BE00E8DAE0 /* Build configuration list for PBXNativeTarget "DouguTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +555,7 @@
 				62E8AE171AA1A1BE00E8DAE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
