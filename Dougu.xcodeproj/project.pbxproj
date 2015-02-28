@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		62E8ADF61AA1A1BE00E8DAE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E8ADF51AA1A1BE00E8DAE0 /* AppDelegate.swift */; };
 		62E8ADF91AA1A1BE00E8DAE0 /* Dougu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 62E8ADF71AA1A1BE00E8DAE0 /* Dougu.xcdatamodeld */; };
-		62E8ADFB1AA1A1BE00E8DAE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E8ADFA1AA1A1BE00E8DAE0 /* ViewController.swift */; };
 		62E8ADFE1AA1A1BE00E8DAE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62E8ADFC1AA1A1BE00E8DAE0 /* Main.storyboard */; };
 		62E8AE001AA1A1BE00E8DAE0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62E8ADFF1AA1A1BE00E8DAE0 /* Images.xcassets */; };
 		62E8AE031AA1A1BE00E8DAE0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62E8AE011AA1A1BE00E8DAE0 /* LaunchScreen.xib */; };
 		62E8AE0F1AA1A1BE00E8DAE0 /* DouguTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E8AE0E1AA1A1BE00E8DAE0 /* DouguTests.swift */; };
+		62E8AE191AA1A25900E8DAE0 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E8AE181AA1A25900E8DAE0 /* InitialViewController.swift */; };
+		62E8AE1B1AA1A27A00E8DAE0 /* MainTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E8AE1A1AA1A27A00E8DAE0 /* MainTableTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +32,14 @@
 		62E8ADF41AA1A1BE00E8DAE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62E8ADF51AA1A1BE00E8DAE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62E8ADF81AA1A1BE00E8DAE0 /* Dougu.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dougu.xcdatamodel; sourceTree = "<group>"; };
-		62E8ADFA1AA1A1BE00E8DAE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		62E8ADFD1AA1A1BE00E8DAE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		62E8ADFF1AA1A1BE00E8DAE0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		62E8AE021AA1A1BE00E8DAE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		62E8AE081AA1A1BE00E8DAE0 /* DouguTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DouguTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62E8AE0D1AA1A1BE00E8DAE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62E8AE0E1AA1A1BE00E8DAE0 /* DouguTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DouguTests.swift; sourceTree = "<group>"; };
+		62E8AE181AA1A25900E8DAE0 /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		62E8AE1A1AA1A27A00E8DAE0 /* MainTableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +82,9 @@
 			isa = PBXGroup;
 			children = (
 				62E8ADF51AA1A1BE00E8DAE0 /* AppDelegate.swift */,
-				62E8ADFA1AA1A1BE00E8DAE0 /* ViewController.swift */,
 				62E8ADFC1AA1A1BE00E8DAE0 /* Main.storyboard */,
+				62E8AE181AA1A25900E8DAE0 /* InitialViewController.swift */,
+				62E8AE1A1AA1A27A00E8DAE0 /* MainTableTableViewController.swift */,
 				62E8ADFF1AA1A1BE00E8DAE0 /* Images.xcassets */,
 				62E8AE011AA1A1BE00E8DAE0 /* LaunchScreen.xib */,
 				62E8ADF71AA1A1BE00E8DAE0 /* Dougu.xcdatamodeld */,
@@ -215,7 +218,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62E8ADFB1AA1A1BE00E8DAE0 /* ViewController.swift in Sources */,
+				62E8AE191AA1A25900E8DAE0 /* InitialViewController.swift in Sources */,
+				62E8AE1B1AA1A27A00E8DAE0 /* MainTableTableViewController.swift in Sources */,
 				62E8ADF91AA1A1BE00E8DAE0 /* Dougu.xcdatamodeld in Sources */,
 				62E8ADF61AA1A1BE00E8DAE0 /* AppDelegate.swift in Sources */,
 			);
